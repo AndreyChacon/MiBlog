@@ -1,0 +1,369 @@
+/*-----------------------Contenido Encabezado y Logo-----------------------------*/
+
+*¨{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background: #fff;
+    font-family: Century Gothic;
+}
+
+header{
+    background: #01a9bd;
+    width: 100%;
+    height: 100 px;
+    box-shadow: 0px 0px 30px #a4a4a4;
+    border-bottom-style: solid;
+    border-bottom-color: #585858;
+    border-bottom-width: 5px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+}
+
+#encabezado{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    border: 0px solid #000;    
+}
+
+#logo{
+    width: 30%;
+    height: auto; overflow: hidden;
+    float: left;
+    color:  #fff;
+    font-size: 30px;
+    margin-top: 45px;
+}
+
+#redes-sociales .img-redes-sociales{
+    width: 1.8%;
+    height: 1.8%;
+    margin: 110px 40px 0px 20px;
+    float: right;
+}  
+    
+#redes-sociales .img-redes-sociales:hover{
+    border:0;
+    opacity: 0.5;
+    cursor: pointer;
+}  
+    
+
+/*-----------------------Contenido Menu -----------------------------*/
+
+#menu{
+    width: 40%;
+    height: 50px;
+    float: right;
+    border: 0px solid yellow;
+    margin-top: 45px;
+}
+
+#menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+#menu ul li .enlace{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#menu ul li .enlace:hover{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#menu ul li .active{
+    background: #585858;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}    
+
+.menu-fixed{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/*-----------------------Contenido Sub-Menu -----------------------------*/
+
+.sub-menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+}
+
+.sub-menu li:hover > ul {
+    display: block;  
+    background: #01a9bd;
+    color: #fff;
+    border-radius: 5px 5px 5px 5px;
+    padding: 0;
+    text-decoration: none;
+    font-size: 18px;  
+    margin: 11px 10px 10px 10px;
+}
+
+
+/*-----------------------Contenido Inicio-----------------------------*/
+
+
+#principal{
+    width: 70%;
+    height: auto; overflow: hidden;
+    border: 1px solid #445248;
+    margin:10px auto;
+}
+
+#publicaciones{
+    width: 98%;
+    height: auto; overflow: hidden;
+    border: 0px solid yellowgreen;
+    margin: auto;
+    text-align: justify;
+}
+
+.post{
+    width: 98%;
+    height: auto; overflow: hidden;
+    padding: 7px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 10px 0px 10px #ccc;
+    margin: 20px;
+}
+
+.titulo-uno{
+    text-align: center;
+    width: 100%;
+    color:#445248;
+    font-size: 40px;
+    font-family: Century Gothic;
+    height: auto; overflow: hidden;
+}
+
+#publicaciones a .titulo-dos{
+    color: #6e6e6e;
+    font-size: 22px;
+    font-family: Century Gothic;
+    margin: 10px 10px 10px 81px;
+    text-decoration: none;
+}
+
+.parrafo-post{
+    margin: 80px 40px 40px 40px;
+    color:  #6e6e6e;
+    font-size: 22px;
+}
+
+#publicaciones .img-post{
+    width: 350px;
+    height:250px;
+    float: left;
+    margin: 10px 10px 10px 0px;
+    padding: 5px;
+}
+
+.curiosidades{
+    color:  #445248;
+    font-size: 20px; 
+    list-style-type: circle;
+}
+
+.listado-curiosidades{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+
+/*-----------------------Contenido Generos-----------------------------*/
+
+
+.titulo-uno-generos{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-family: Century Gothic;
+    height: auto; overflow: hidden;
+    color: #445248;
+    margin: 200px 50px 100px 40px;
+}
+
+#principal-generos {
+    width: 70%;
+    border: 1px solid #01a9bd;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#principal-generos .titulo-dos{
+    text-align: center;
+    width: 100%;
+    color: #01a9bd;
+    font-size: 30px;
+    font-family: Century Gothic;
+    height: auto; 
+    margin: 80px 30px 30px 30px;
+    
+}
+
+.parrafo-generos{
+    font-size: 20px;
+    color: #5B5554;
+    text-align: justify;
+    margin: 50px 20px 20px 20px;
+    
+}
+
+.imagen-parrafo-generos{
+    width: 280px;
+    height: 320px;
+    float: left;
+    margin: 20px 20px 20px 20px;                  
+}
+
+.videos-generos{
+    width: 300px;
+    height: 160px;
+    margin: 0px 0px 20px 20px;   
+    float: left;
+}
+
+.post-generos{
+    width: 40%;
+    height: auto; overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    padding: 4px;
+    background: #fdfdfd;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #0489b1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px#445248;
+}
+
+
+/*-----------------------Contenido Top-10-----------------------------*/
+
+
+.header-top-10{
+    background: #01a9bd;
+    width: 100%;
+    height: 100 px;
+    box-shadow: 0px 0px 30px #a4a4a4;
+    border-bottom-style: solid;
+    border-bottom-color: #585858;
+    border-bottom-width: 5px;
+}
+
+
+.titulo-top-10{
+    width: 100%;
+    color: #6e6e6e;
+    font-size: 40px;
+    font-family: Century Gothic;
+    height: auto; overflow: hidden;
+    float: left;
+}
+
+#publicaciones a .titulos-tops{
+    color: #6e6e6e;
+    font-size: 20px;
+    font-family: Century Gothic;
+    margin: 10px 10px 10px 20px;
+    
+}
+
+.parrafo-top{
+    font-size: 18px;
+    margin: 29px 10px 0px 390px;
+    color: #5B5554;
+  
+}
+
+.datos-cancion{
+        color: #5B5554;
+        margin: 13px 10px 10px 390px;
+}
+
+
+/*-----------------------Contenido Loguin-----------------------------*/
+
+
+.centrar-form{
+    margin: 50px auto;
+    float:none;
+}
+
+Form{
+    margin: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    background: #DADADA;
+    padding: 18px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    border: 1px solid #01a9bd;
+}
+
+.titulo-formulario{
+    text-align: center;
+    width: 100%;
+    color: #6e6e6e;
+    font-size: 25px;
+    font-family: Century Gothic;
+    float: left;
+}
+
+input{
+    margin: 10px 0px 0px 0px;
+    width: 60%;
+    height: 50%;
+    display: block;
+}
+
+input[type="submit"]{
+    color: #01a9bd;
+    font-size: 20px;
+    border:0;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 20px;
+} 
+
+input[type="submit"]:hover {
+    opacity: 2;
+} 
+
+input[type="submit"]:active {
+    transform: scale(0.8);
+} 
+
+
+
+
+
+
+
+
